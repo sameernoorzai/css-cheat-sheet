@@ -1,0 +1,127 @@
+body{
+  background-image: url('../image/222.png');
+  font: normal 95% arial;
+  /*its a comment*/
+}
+p{
+  color: white;
+}
+h1{
+  color:red;
+}
+h2{
+  color: blue;
+}
+h3{
+  color: pink;
+}
+
+      .div12 {
+       border: 15px outset purple;
+       background-color: orange;
+       text-align: center;
+     }
+     .div11 {
+       border: 15px outset yellow;
+       background-color: pink;
+       text-align: left;
+     }
+     .div12 p{
+       font-family: cursive;
+       font-weight: 500;
+       font-style: italic;
+       text-decoration: underline;
+       text-transform: capitalize;
+       word-spacing:5em;
+       letter-spacing: 0.2em;
+     }
+
+a:visited{
+  color:green;
+}
+a{
+  text-decoration: none;
+  color:red;
+}
+a:hover{
+  color:white;
+}
+a:active{
+  color:black;
+}
+.p-form{
+  padding: 20px;
+}
+.p-form .form-group{
+  padding-bottom: 15px;
+}
+
+.p-form label{
+  display:block;
+}
+.p-form input[type="text"], [type="Email"], [type="password"],.p-form textarea{
+  padding: 8px;
+  width: 100%;
+  background-color: lightblue;
+}
+.clr{
+  clear:both;
+}
+
+.button:hover{
+  background: red;
+  color:white;
+}
+.button {
+  background-color: orange;
+  color:yellow;
+}
+.block {
+  float:left;
+  width: 33.3%;
+  border:1px solid ;
+  padding:10px;
+  box-sizing: border-box;
+}
+#main-block{
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+#sidebar{
+  float: right;
+  width: 30%;
+  padding: 10px;
+  background-color: lightblue;
+  color: red;
+  box-sizing: border-box;
+}
+.p-box{
+  height: 500px;
+  width: 800px;
+  border: 1px solid #000;
+  margin-top: 40px;
+  position: relative;
+  background-image: url('../image/111.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /*
+  background-repeat: no-repeat;
+  background-position: center center;*/
+}
+.p-box  h2{
+  position: absolute;
+  top:10px;
+  color: white;
+}
+.p-box h4{
+  position: absolute;
+  top:40px;
+  color: white;
+}
+.fix-me{
+  position: fixed;
+  top: 400px;
+}
